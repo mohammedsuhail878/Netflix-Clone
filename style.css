@@ -102,6 +102,7 @@ body{
     background-color: rgba(128, 128, 128, 0.075);
     border: 1px solid #eeeeee70;
     border-radius: 4px;
+    color: white;
 }
 
 .content-flex{

@@ -175,6 +175,7 @@ body{
 .sub-heading{
     font-size: 24px;
     margin-top: 0;
+    font-weight: normal;
 }
 
 section{
@@ -201,8 +202,9 @@ section{
 }
 
 .mobile-sub-heading{
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 10px;
+    font-weight: normal;
 }
 
 .boxshot{
@@ -232,7 +234,172 @@ section{
 }
 
 .download-icon{
-    width: 40px;
+    width: 20px;
     height: 30px;
-    padding-right: 20px;
+    padding-right: 40px;
+}
+
+.container-3{
+    display: flex;
+    color: white;
+    width: 990px;
+    margin: 100px auto;
+    align-items: center;
+    gap: 100px;
+}
+
+.device-heading{
+    font-size: 35px;
+    margin: 0;
+    margin-left: 40px;
+    transform: scale(1.4);
+}
+
+.device-sub-heading{
+    font-size: 18px;
+    margin: 30px;
+    font-weight: normal;
+    margin-left: 10px;
+    transform: scale(1.2);
+    
+}
+
+.real-device{
+    position: relative;
+    transform: scale(1.2);
+    
+}
+
+.device{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    
+}
+
+.video-device{
+    position: absolute;
+    width: 280px;
+    top: 40px;
+    left: 80px;
+    
+}
+
+.container-4{
+    display: flex;
+    color: white;
+    width: 990px;
+    margin: 100px auto;
+    align-items: center;
+    gap: 150px;
+}
+
+.children-picture{
+    width: 120%;
+}
+
+.kids-profile{
+    font-size: 40px;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.profile-sub-heading{
+    font-size: 20px;
+    transform: scale(1.2);
+}
+
+.faq{
+    color: white;
+}
+
+.faq-heading{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.faq-btn{
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    justify-content: space-between; 
+    margin-top: 18px;
+    margin-bottom: 0;
+    font-size: 24px;
+    transform: scale(1.1);
+}
+
+.faq-btn:hover{
+    background-color: rgb(37, 36, 36);
+}
+
+.bottom-tittle{
+    margin-bottom: 50px;
+}
+
+
+.Question{
+    padding: 0;
+    width: 260px;
+    color: white;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 0;
+    
+
+}
+
+.dail{
+    text-decoration: underline;
+}
+
+.footer-item-1{
+    width: 170px;
+    margin-left: 120px;
+}
+
+.item{
+    color: white;
+    text-decoration: underline;
+    padding: 5px;
+    font-weight: normal;
+}
+
+.footer-item{
+    margin-top: 0;
+    display: flex;
+    
+}
+
+.footer-en-btn{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.075);
+    color: white;
+    border: 1px solid #eeeeee69;
+    border-radius: 4px;
+    font-size: 14px;
+    padding-right: 14px;
+    padding-left: 14px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 120px;
+    height: 35px;
+    gap: 7px;
+}
+
+.name{
+    color: white;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 80px;
 }
